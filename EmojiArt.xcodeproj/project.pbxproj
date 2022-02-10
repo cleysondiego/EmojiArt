@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC37544827B494C000F22683 /* OptionalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37544727B494C000F22683 /* OptionalImage.swift */; };
+		AC37544A27B4977E00F22683 /* AnimatableSystemFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37544927B4977E00F22683 /* AnimatableSystemFontModifier.swift */; };
 		ACF09DED27B1E98B008A3424 /* EmojiArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF09DEC27B1E98B008A3424 /* EmojiArtApp.swift */; };
 		ACF09DEF27B1E98B008A3424 /* EmojiArtDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF09DEE27B1E98B008A3424 /* EmojiArtDocumentView.swift */; };
 		ACF09DF127B1E98D008A3424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF09DF027B1E98D008A3424 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC37544727B494C000F22683 /* OptionalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalImage.swift; sourceTree = "<group>"; };
+		AC37544927B4977E00F22683 /* AnimatableSystemFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableSystemFontModifier.swift; sourceTree = "<group>"; };
 		ACF09DE927B1E98B008A3424 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF09DEC27B1E98B008A3424 /* EmojiArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtApp.swift; sourceTree = "<group>"; };
 		ACF09DEE27B1E98B008A3424 /* EmojiArtDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentView.swift; sourceTree = "<group>"; };
@@ -59,9 +63,11 @@
 			children = (
 				ACF09DFA27B1E9D6008A3424 /* EmojiArtDocument.swift */,
 				ACF09DEE27B1E98B008A3424 /* EmojiArtDocumentView.swift */,
+				AC37544727B494C000F22683 /* OptionalImage.swift */,
 				ACF09DFC27B1ED8A008A3424 /* EmojiArt.swift */,
 				ACF09DFE27B1F107008A3424 /* EmojiArtExtensions.swift */,
 				ACF09DEC27B1E98B008A3424 /* EmojiArtApp.swift */,
+				AC37544927B4977E00F22683 /* AnimatableSystemFontModifier.swift */,
 				ACF09DF027B1E98D008A3424 /* Assets.xcassets */,
 				ACF09DF227B1E98D008A3424 /* Preview Content */,
 			);
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC37544A27B4977E00F22683 /* AnimatableSystemFontModifier.swift in Sources */,
 				ACF09DFD27B1ED8A008A3424 /* EmojiArt.swift in Sources */,
 				ACF09DFF27B1F107008A3424 /* EmojiArtExtensions.swift in Sources */,
 				ACF09DEF27B1E98B008A3424 /* EmojiArtDocumentView.swift in Sources */,
+				AC37544827B494C000F22683 /* OptionalImage.swift in Sources */,
 				ACF09DFB27B1E9D6008A3424 /* EmojiArtDocument.swift in Sources */,
 				ACF09DED27B1E98B008A3424 /* EmojiArtApp.swift in Sources */,
 			);
@@ -289,6 +297,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +308,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
 			};
 			name = Debug;
 		};
@@ -318,6 +328,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +339,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
 			};
 			name = Release;
 		};
